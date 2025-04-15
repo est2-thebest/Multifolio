@@ -1,7 +1,7 @@
 export default function Caio() {
   return (
-    <div>
-      <p>Aqui onde o caio vai brincar</p>
-    </div>
+    <>
+      <div className="bg-amber-950">const first = useContext(second) </div>
+    </>
   );
 }
