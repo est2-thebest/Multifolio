@@ -1,3 +1,9 @@
+import NavBar from "@/components/caio/NavBar";
+
 export default function GabrielasPLayground() {
-  return <>Aqui onde o Gabriela vai brincar</>;
+  return (
+    <>
+      <NavBar name="Gabriella" themeColor="amber" />
+    </>
+  );
 }
