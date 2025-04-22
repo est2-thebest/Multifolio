@@ -12,17 +12,9 @@ interface NavbBarProps {
 }
 
 const NavBar: FC<NavbBarProps> = (props): JSX.Element => {
-  const theme = {
-    violet: "bg-violet-950",
-    slate: "bg-slate-950",
-    amber: "bg-amber-950",
-    blue: "bg-blue-950",
-    green: "bg-green-950",
-    chuchu: "bg-indigo-950",
-  };
   return (
     <div
-      className={`w-full sticky top-0 flex flex-row font-bold justify-between px-5 py-5 content-center ${theme[props.themeColor]}`}
+      className={`w-full sticky top-0 flex flex-row font-bold justify-between px-5 py-5 content-center `}
     >
       <div>
         <p className="text-3xl">{props.name}</p>

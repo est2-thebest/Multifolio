@@ -1,3 +1,4 @@
+import CardItem from "@/components/caio/Card";
 import NavBar from "@/components/caio/NavBar";
 
 export default function TestPage() {
